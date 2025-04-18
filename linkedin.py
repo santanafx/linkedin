@@ -4,7 +4,7 @@ import re
 from collections import Counter
 from linkedin_api import Linkedin
 
-api = Linkedin("santanafx@hotmail.com", "!Lucas421")
+api = Linkedin("email", "password")
 
 # data = api.search_jobs(job_title=["backend","back end","back-end", "software", "front-end", "frontend", "front end", "mobile"],location_name="United States")
 # data = api.search_jobs(job_title=["backend","back end","back-end", "software", "front-end", "frontend", "front end", "mobile"],location_name="Brazil")
